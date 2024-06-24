@@ -58,9 +58,8 @@ main {
     color: white;
 }
   
-table, td{
-    border: 1px solid;
-    width: 40%;
-    border-color: white;
-    border-collapse: collapse;
+.menu {
+    display: flexbox;
+    width: 100%;
+    margin: auto;
 }
