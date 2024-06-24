@@ -1,30 +1,66 @@
-/* Navigation bar styling */
-nav {
-    background-color: rgb(26, 30, 43); /* Sets the background colour of the navigation bar */
-    display: flex; /* Uses Flexbox for layout */
-    align-items: center; /* Centres items vertically within the nav */
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+    width: 100%;
+    max-width: 850px;
+    border-radius: 50%;
+    color:white;
+    margin: 0 auto;
 }
 
-/* Main heading (h1) styling */
-h1 {
-    color: rgb(255, 255, 255); /* Sets the text colour of the h1 element */
-    margin-left: 20px; /* Adds space to the left of the h1 element */
-    font-weight: bold; /* Makes the text bold */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Sets the font family */
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
-/* Header section styling */
-.div-1 {
-    background-image: url('dungeonBanner.jpg'); /* Sets the background image */
-    background-size: cover; /* Ensures the image covers the entire header */
-    background-position: center; /* Centres the background image */
-    height: 500px; /* Sets the height of the header */
-    display: flex; /* Uses Flexbox for layout */
-    margin: 10px 0px 10px 0px;
-    justify-content: center; /* Centres items horizontally within the header */
-    align-items: center; /* Centres items vertically within the header */
-    color: white; /* Sets the text colour to white */
-    text-align: center; /* Centres the text */  
-    font-weight: bold; /* Makes the text bold */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Sets the font family */
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Calibri;
+}
+
+.nav {
+    background-color: black;
+    padding: 20px;
+    width: 200px;
+}
+
+.nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.nav li {
+    margin: 10px 0; /* Add some margin between items */
+}
+
+.nav a {
+    color: white; /* White text colour */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+}
+
+.nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    background-color: black;
+    padding: 20px; /* Add some padding */
+    flex-grow: 1; /* Allow main to grow and take available space */
+    max-width: 1300px; /* Maximum width */
+    margin: 0 auto; /* Centre the main section */
+    color: white;
+}
+  
+table, td{
+    border: 1px solid;
+    width: 40%;
+    border-color: white;
+    border-collapse: collapse;
 }
