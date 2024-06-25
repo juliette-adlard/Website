@@ -53,13 +53,28 @@ main {
     background-color: black;
     padding: 20px; /* Add some padding */
     flex-grow: 1; /* Allow main to grow and take available space */
-    max-width: 1300px; /* Maximum width */
-    margin: 0 auto; /* Centre the main section */
+    min-width: 500px;
+    width: 40%;
+    margin: 0 4%; /* Centre the main section */
     color: white;
 }
   
 .menu {
     display: flexbox;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
     width: 100%;
     margin: auto;
+}
+
+.plant {
+    width:30%;
+}
+.boss {
+    width:30%;
+}
+
+div {
+    border: 5px solid red;
 }
