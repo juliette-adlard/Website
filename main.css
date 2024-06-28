@@ -7,13 +7,8 @@ body{
 h1{
     font-size: 100px;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    background-color: black;
     width: 100%;
     max-width: 850px;
-    border-radius: 50%;
-    color:white;
-    margin: 0 auto;
 }
 
 header{
