@@ -1,3 +1,9 @@
+body{
+    margin: 0px;
+    background-image: url('necromancybackgroundplaceholder.jpg');
+    background-size: cover;
+    
+}
 h1{
     font-size: 100px;
     text-align: center;
@@ -57,6 +63,11 @@ main {
     width: 40%;
     margin: 0 4%; /* Centre the main section */
     color: white;
+}
+
+.main h2{
+    font-size: 50px;
+    margin-bottom: 0px;
 }
   
 .menu {
