@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     background-image: url('necromancybackgroundplaceholder.jpg');
-    background-size: cover;
+    background-size: contain;
     
 }
 h1{
