@@ -84,3 +84,8 @@ main {
 div {
     border: 5px solid red;
 }
+
+.contents {
+    width: 100px;
+    display: flex;
+}
