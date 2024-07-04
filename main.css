@@ -1,7 +1,8 @@
 body{
     margin: 0px;
     background-image: url('necromancybackgroundplaceholder.jpg');
-    background-size: contain;
+    background-size: cover;
+    color: white;
     
 }
 h1{
@@ -66,7 +67,7 @@ main {
 }
   
 .menu {
-    display: flexbox;
+    display:flex;
     align-items: flex-start;
     align-content: flex-start;
     justify-content: flex-start;
@@ -74,11 +75,24 @@ main {
     margin: auto;
 }
 
-.plant {
-    width:30%;
+.sectionA{
+    border: 5px solid blue;
+    width: 50%;
 }
-.boss {
-    width:30%;
+
+.sectionB{
+    border: 5px solid green;
+}
+
+.plant {
+    width:100%;
+}
+.characters {
+    width:100%;
+}
+
+.bosses {
+    width:100%;
 }
 
 div {
