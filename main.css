@@ -127,6 +127,7 @@ h3 {
 a{
     color: #90d0a0;
     text-decoration: none;
+
 }
 
 a:hover{
@@ -137,4 +138,25 @@ a:hover{
 td{
     display: flex;
     align-items: center;
+}
+
+.blurbbar {
+    border: 1px solid #90d0a0;
+    border-radius: 10px;
+    width: 15%;
+    padding: 5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 0.3;
+}
+
+goopweedicon.png {
+    resize: 120%;
 }
